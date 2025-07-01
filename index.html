@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English Learning Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,11 +17,28 @@
         </header>
 
         <nav class="main-nav">
+            <button class="nav-btn" data-section="practice">Practice Mode</button>
             <button class="nav-btn active" data-section="structures">Sentence Structures</button>
             <button class="nav-btn" data-section="prepositions">Prepositions</button>
             <button class="nav-btn" data-section="comparisons">Comparisons</button>
             <button class="nav-btn" data-section="phrasal-verbs">Phrasal Verbs</button>
         </nav>
+
+        <!-- Practice Mode Section -->
+        <section id="practice" class="content-section">
+            <div class="practice-panel">
+                <h2>Practice Mode</h2>
+                <p>Test your knowledge with interactive questions from sentence structures and phrasal verbs!</p>
+                <button id="practice-btn">Start Practice</button>
+                <div id="practice-content" class="hidden">
+                    <div class="practice-card">
+                        <div class="practice-question"></div>
+                        <div class="practice-options"></div>
+                        <button id="next-practice">Next</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Sentence Structures Section -->
         <section id="structures" class="content-section active">
@@ -60,19 +80,6 @@
                 <!-- Phrasal verbs will be populated by JavaScript -->
             </div>
         </section>
-
-        <!-- Practice Section -->
-        <div class="practice-panel">
-            <h3>Practice Mode</h3>
-            <button id="practice-btn">Start Practice</button>
-            <div id="practice-content" class="hidden">
-                <div class="practice-card">
-                    <div class="practice-question"></div>
-                    <div class="practice-options"></div>
-                    <button id="next-practice">Next</button>
-                </div>
-            </div>
-        </div>
     </div>
 
     <script src="script.js"></script>

@@ -396,7 +396,7 @@ function addSearchFeature() {
     const searchContainer = document.createElement('div');
     searchContainer.className = 'search-container';
     searchContainer.innerHTML = `
-        <input type="text" id="search-input" placeholder="Search structures, phrasal verbs, or meanings...">
+        <input type="text" id="search-input" placeholder="Search...">
         <button id="search-btn">Search</button>
     `;
     
