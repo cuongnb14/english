@@ -499,6 +499,5 @@ function displaySearchResults(results, query) {
 
 // Initialize search when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    // Add search feature after a short delay to ensure data is loaded
-    setTimeout(addSearchFeature, 1000);
+    addSearchFeature();
 });
