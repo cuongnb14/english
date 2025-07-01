@@ -701,12 +701,6 @@ function setupSlideView() {
                     <div class="structure-id">#${slide.data.id}</div>
                     <div class="structure-formula">${slide.data.structure}</div>
                     <div class="structure-meaning">${slide.data.meaning || ''}</div>
-                    <div class="structure-examples">
-                        <h4>Example Usage:</h4>
-                        <div class="example example-highlight">
-                            ${generateExampleForComparison(slide.data.structure)}
-                        </div>
-                    </div>
                 `;
                 break;
                 
@@ -714,12 +708,6 @@ function setupSlideView() {
                 slideContent = `
                     <div class="phrasal-verb">${slide.data.verb}</div>
                     <div class="phrasal-meaning">${slide.data.meaning}</div>
-                    <div class="structure-examples">
-                        <h4>Example Usage:</h4>
-                        <div class="example example-highlight">
-                            ${generateExampleForPhrasal(slide.data.verb)}
-                        </div>
-                    </div>
                 `;
                 break;
                 
@@ -727,12 +715,6 @@ function setupSlideView() {
                 slideContent = `
                     <div class="structure-formula">${slide.data.preposition}</div>
                     <div class="structure-meaning">${slide.data.usage}</div>
-                    <div class="structure-examples">
-                        <h4>Example Usage:</h4>
-                        <div class="example example-highlight">
-                            ${generateExampleForPreposition(slide.data.preposition)}
-                        </div>
-                    </div>
                 `;
                 break;
         }
@@ -805,91 +787,6 @@ function setupSlideView() {
     
     function resetProgressBar() {
         progressFill.style.width = '0%';
-    }
-    
-    // Generate example sentences for different content types
-    function generateExampleForComparison(structure) {
-        const examples = {
-            'as...as': ['She is as tall as her brother.', 'This book is as interesting as that one.', 'He runs as fast as a cheetah.'],
-            'more...than': ['This car is more expensive than that one.', 'She is more intelligent than her classmates.', 'Today is more beautiful than yesterday.'],
-            'the most': ['This is the most beautiful place I have ever seen.', 'She is the most talented singer in the group.', 'It was the most difficult exam ever.'],
-            'better than': ['Coffee is better than tea for staying awake.', 'This solution is better than the previous one.', 'Reading is better than watching TV.'],
-            'worse than': ['The weather today is worse than yesterday.', 'His performance was worse than expected.', 'This situation is worse than we thought.'],
-            'superior': ['This product is superior to its competitors.', 'Her skills are superior to mine.', 'Quality is superior to quantity.'],
-            'inferior': ['This material is inferior to the original.', 'Never feel inferior to others.', 'The copy is inferior to the original artwork.']
-        };
-        
-        // Find matching pattern
-        for (const [pattern, exampleList] of Object.entries(examples)) {
-            if (structure.toLowerCase().includes(pattern.toLowerCase())) {
-                return exampleList[Math.floor(Math.random() * exampleList.length)];
-            }
-        }
-        
-        // Default examples
-        const defaultExamples = [
-            'This example demonstrates the comparison structure.',
-            'Compare these two different situations.',
-            'Notice the difference in meaning between the options.'
-        ];
-        return defaultExamples[Math.floor(Math.random() * defaultExamples.length)];
-    }
-    
-    function generateExampleForPhrasal(verb) {
-        const examples = {
-            'break up': ['They decided to break up after five years.', 'The police broke up the fight.', 'The band broke up in 2010.'],
-            'look up': ['Look up the word in the dictionary.', 'Things are looking up for our company.', 'I need to look up his phone number.'],
-            'give up': ['Never give up on your dreams.', 'She gave up smoking last year.', 'Don\'t give up so easily!'],
-            'put off': ['We had to put off the meeting until tomorrow.', 'Stop putting off your homework.', 'The smell put me off my food.'],
-            'turn on': ['Please turn on the lights.', 'Turn on the TV for the news.', 'She turned on her computer.'],
-            'turn off': ['Don\'t forget to turn off the gas.', 'Turn off your phone during the movie.', 'He turned off the engine.'],
-            'pick up': ['Can you pick up some milk from the store?', 'I\'ll pick you up at 8 PM.', 'She picked up the phone quickly.'],
-            'drop off': ['I\'ll drop you off at the airport.', 'Please drop off the keys at reception.', 'Sales dropped off significantly.'],
-            'run into': ['I ran into my old friend at the mall.', 'We ran into some problems with the project.', 'The car ran into a tree.'],
-            'come across': ['I came across this interesting article.', 'She comes across as very confident.', 'We came across a beautiful lake.']
-        };
-        
-        // Find matching phrasal verb
-        for (const [phrase, exampleList] of Object.entries(examples)) {
-            if (verb.toLowerCase().includes(phrase.toLowerCase())) {
-                return exampleList[Math.floor(Math.random() * exampleList.length)];
-            }
-        }
-        
-        // Extract first part of phrasal verb for generic examples
-        const verbPart = verb.split(' ')[0].toLowerCase();
-        const genericExamples = [
-            `Please ${verb.toLowerCase()} when you have time.`,
-            `She always ${verb.toLowerCase()} in difficult situations.`,
-            `We need to ${verb.toLowerCase()} before it's too late.`,
-            `They ${verb.toLowerCase()} every morning.`
-        ];
-        return genericExamples[Math.floor(Math.random() * genericExamples.length)];
-    }
-    
-    function generateExampleForPreposition(preposition) {
-        const examples = {
-            'in': ['She lives in New York.', 'The book is in the bag.', 'We\'ll meet in the morning.', 'He\'s interested in music.'],
-            'on': ['The cat is on the table.', 'We\'re going on vacation.', 'Turn on the light.', 'He\'s on the phone.'],
-            'at': ['Meet me at the station.', 'She\'s good at math.', 'We arrived at 3 PM.', 'Look at that beautiful sunset.'],
-            'for': ['This gift is for you.', 'We waited for an hour.', 'She\'s famous for her cooking.', 'Thank you for your help.'],
-            'with': ['I went with my friends.', 'Cut it with a knife.', 'She\'s angry with her brother.', 'Mix the flour with water.'],
-            'by': ['The book was written by Shakespeare.', 'We travel by train.', 'Sit by the window.', 'The deadline is by Friday.'],
-            'from': ['I\'m from Canada.', 'The train leaves from platform 3.', 'This is different from that.', 'We learned from our mistakes.'],
-            'to': ['I\'m going to school.', 'Give this to your teacher.', 'Listen to the music.', 'We\'re close to the solution.'],
-            'of': ['The color of the sky.', 'A cup of coffee.', 'The capital of France.', 'She\'s afraid of spiders.'],
-            'about': ['Tell me about your trip.', 'What are you thinking about?', 'She\'s excited about the party.', 'We talked about the weather.']
-        };
-        
-        // Find matching preposition
-        const prep = preposition.toLowerCase().trim();
-        if (examples[prep]) {
-            const exampleList = examples[prep];
-            return exampleList[Math.floor(Math.random() * exampleList.length)];
-        }
-        
-        // Default example
-        return `This sentence shows how to use "${preposition}" correctly.`;
     }
 }
 
