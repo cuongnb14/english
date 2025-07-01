@@ -163,7 +163,7 @@
         {
           "id": 19,
           "structure": "can't stand/help/bear/resist + V-ing",
-          "meaning": "Không chịu nổi không nhịn được làm gì...",
+          "meaning": "Không chịu nỗi không nhịn được làm gì...",
           "examples": [
             "She can't stand laughing at her little dog."
           ]
@@ -351,7 +351,7 @@
         },
         {
           "id": 42,
-          "structure": "To provide smb from V_ing",
+          "structure": "To provide smb with smt",
           "meaning": "Cung cấp cho ai cái gì",
           "examples": [
             "Can you provide us with some books in history?"
@@ -410,14 +410,14 @@
           "structure": "CN + be + so + tính từ + that + S + động từ / CN + động từ + so + trạng từ",
           "meaning": "Đến mức mà",
           "examples": [
-            "1. The exercise is so difficult that noone can do it.",
-            "2. He spoke so quickly that I couldn't understand him."
+            "The exercise is so difficult that noone can do it.",
+            "He spoke so quickly that I couldn't understand him."
           ]
         },
         {
           "id": 50,
           "structure": "CN + be + such + (tính từ) + danh từ + that + CN + động từ",
-          "meaning": null,
+          "meaning": "Đến mức mà",
           "examples": [
             "It is such a difficult exercise that noone can do it."
           ]
@@ -433,7 +433,7 @@
         {
           "id": 52,
           "structure": "To find it + tính từ + to do smt",
-          "meaning": null,
+          "meaning": "Thấy khó để làm gì",
           "examples": [
             "We find it difficult to learn English."
           ]
@@ -443,8 +443,8 @@
           "structure": "To make sure of smt / that + CN + động từ",
           "meaning": "Bảo đảm điều gì",
           "examples": [
-            "1. I have to make sure of that information.",
-            "2. You have to make sure that you'll pass the exam."
+            "I have to make sure of that information.",
+            "You have to make sure that you'll pass the exam."
           ]
         },
         {
@@ -461,7 +461,7 @@
           "meaning": "Dành thời gian / tiền bạc vào cái gì / làm gì",
           "examples": [
             "We spend a lot of time on TV.",
-            "watching TV."
+            "We spend a lot of time watching TV."
           ]
         },
         {
@@ -469,7 +469,7 @@
           "structure": "To have no idea of smt = don't know about smt",
           "meaning": "Không biết về cái gì",
           "examples": [
-            "I have no idea of this word = I don't know this word."
+            "I have no idea of this word."
           ]
         },
         {
@@ -482,11 +482,10 @@
         },
         {
           "id": 58,
-          "structure": "To plan to do smt / intend",
+          "structure": "To plan to do smt / intend to do smt",
           "meaning": "Dự định / có kế hoạch làm gì",
           "examples": [
-            "We planed to go for a picnic.",
-            "intended"
+            "We planed to go for a picnic."
           ]
         },
         {
@@ -526,7 +525,8 @@
           "structure": "To be able to do smt = To be capable of + V_ing",
           "meaning": "Có khả năng làm gì",
           "examples": [
-            "I'm able to speak English = I am capable of speaking English."
+            "I'm able to speak English.",
+            "I am capable of speaking English."
           ]
         },
         {
@@ -558,8 +558,8 @@
           "structure": "Had ('d) better do smt / not do smt",
           "meaning": "Nên làm gì / Không nên làm gì",
           "examples": [
-            "1. You'd better learn hard.",
-            "2. You'd better not go out."
+            "You'd better learn hard.",
+            "You'd better not go out."
           ]
         },
         {
@@ -568,7 +568,7 @@
           "meaning": "Thà làm gì / đừng làm gì",
           "examples": [
             "I'd rather stay at home.",
-            "I'd rather not say at home."
+            "I'd rather not stay at home."
           ]
         },
         {
@@ -592,7 +592,7 @@
           "structure": "To suggest doing smt",
           "meaning": "Gợi ý làm gì",
           "examples": [
-            "1 suggested going for a walk."
+            "I suggested going for a walk."
           ]
         },
         {
@@ -650,7 +650,7 @@
           "examples": [
             "I'm going to have my house repainted.",
             "I'm going to have the garage repair my car.",
-            "= I'm going to have my car repaired."
+            "I'm going to have my car repaired."
           ]
         },
         {
@@ -708,65 +708,126 @@
       "prepositions": [
         {
           "preposition": "During",
-          "usage": "trong suốt (hoạt động diễn ra liên tục)"
+          "usage": "trong suốt (hoạt động diễn ra liên tục)",
+          "examples": [
+            "He works part time during the summer."
+          ]
         },
         {
           "preposition": "From...to...",
-          "usage": "từ... đến... (dùng cho thời gian và nơi chốn)"
+          "usage": "từ... đến... (dùng cho thời gian và nơi chốn)",
+          "examples": [
+            "I will collect data from January to June."
+          ]
         },
         {
           "preposition": "Out of",
-          "usage": "ra khỏi, hết, không còn, đi vắng, cũ, lạc hậu, thất nghiệp, không thể, hỏng"
+          "usage": "ra khỏi, hết, không còn, đi vắng, cũ, lạc hậu, thất nghiệp, không thể, hỏng",
+          "examples": [
+            "When we walked out of the hotel, the taxi was waiting for us.",
+            "We're out of milk.",
+            "My dad is out of town on business.",
+            "This technology is out of date.",
+            "He has been out of work for a year.",
+            "A trip to the moon is out of the question for most people.",
+            "The elevator is out of order again."
+          ]
         },
         {
           "preposition": "By",
-          "usage": "đi ngang qua, ở gần, trước lúc, bằng (phương tiện), cho đến lúc đó, theo đường, tình cờ, nhấn mạnh so sánh"
+          "usage": "đi ngang qua, ở gần, trước lúc, bằng (phương tiện), cho đến lúc đó, theo đường, tình cờ, nhấn mạnh so sánh",
+          "examples": [
+            "He walked by the library.",
+            "Your books are by the window.",
+            "You must return your book by April 21st.",
+            "I go to work by train.",
+            "By the way, have you seen my keys?",
+            "She is by far the best student in the class."
+          ]
         },
         {
           "preposition": "In",
-          "usage": "bên trong, tháng/năm, đúng giờ, trên đường, buổi, quá khứ/tương lai, từ nay trở đi, lúc đầu/cuối, cản lối, thỉnh thoảng, trong nháy mắt, cùng lúc, ở giữa, trong quân đội, hàng thứ, trong trường hợp, để phòng khi, liên lạc"
+          "usage": "bên trong, tháng/năm, đúng giờ, trên đường, buổi, quá khứ/tương lai, từ nay trở đi, lúc đầu/cuối, cản lối, thỉnh thoảng, trong nháy mắt, cùng lúc, ở giữa, trong quân đội, hàng thứ, trong trường hợp, để phòng khi, liên lạc",
+          "examples": [
+            "The clothes are in the wardrobe.",
+            "The weather is cold in December.",
+            "She was born in 1996.",
+            "We arrived just in time for the movie.",
+            "There's a market on James Street. (Note: A.E usage differs from B.E 'in the street')",
+            "He reads in the evening.",
+            "In the past, people wrote letters.",
+            "In the beginning, I was nervous."
+          ]
         },
         {
           "preposition": "On",
-          "usage": "trên bề mặt, thứ/ngày, trên phương tiện, địa chỉ phố, tầng, đúng giờ, góc phố, vỉa hè, trên đường, bên phải/trái, trên TV/radio, nói chuyện điện thoại, có điện thoại, nói chung, tuy nhiên, một mặt/mặt khác, để bán, bán hạ giá, đi bộ"
+          "usage": "trên bề mặt, thứ/ngày, trên phương tiện, địa chỉ phố, tầng, đúng giờ, góc phố, vỉa hè, trên đường, bên phải/trái, trên TV/radio, nói chuyện điện thoại, có điện thoại, nói chung, tuy nhiên, một mặt/mặt khác, để bán, bán hạ giá, đi bộ",
+          "examples": [
+            "The books are on the desk.",
+            "I work on Saturdays.",
+            "He's on the bus now.",
+            "We live on the fifth floor.",
+            "The train arrived on time.",
+            "The shop is on the corner of the street.",
+            "My favorite show is on TV tonight.",
+            "I prefer to go on foot."
+          ]
         },
         {
           "preposition": "At",
-          "usage": "tại, số nhà, thời gian cụ thể, nhà/trường/công sở, đêm/trưa, tối thiểu/tối đa, ngay lập tức, bây giờ, ngay tức thì, ngay sau đó, ở đầu/cuối, ngày lễ, địa điểm, các toà nhà lớn, tổ chức, trường sở, hoạt động nhóm"
+          "usage": "tại, số nhà, thời gian cụ thể, nhà/trường/công sở, đêm/trưa, tối thiểu/tối đa, ngay lập tức, bây giờ, ngay tức thì, ngay sau đó, ở đầu/cuối, ngày lễ, địa điểm, các toà nhà lớn, tổ chức, trường sở, hoạt động nhóm",
+          "examples": [
+            "I live at 15 Craig Street.",
+            "I go to work at 8:00.",
+            "She's working at home today.",
+            "She often goes for a walk at night.",
+            "He eats lunch at noon.",
+            "At least you tried your best.",
+            "Please call me at once.",
+            "We met at a party."
+          ]
         }
       ],
       "idioms": [
         {
           "idiom": "On the beach",
-          "meaning": "trên bờ biển"
+          "meaning": "trên bờ biển",
+          "examples": ["We spent the day relaxing on the beach."]
         },
         {
           "idiom": "Along the beach",
-          "meaning": "dọc theo bờ biển"
+          "meaning": "dọc theo bờ biển",
+          "examples": ["We walked along the beach at sunset."]
         },
         {
           "idiom": "In place of / Instead of",
-          "meaning": "thay cho, thay vì"
+          "meaning": "thay cho, thay vì",
+          "examples": ["You can use honey in place of sugar."]
         },
         {
           "idiom": "For the most part",
-          "meaning": "chính là, chủ yếu là"
+          "meaning": "chính là, chủ yếu là",
+          "examples": ["For the most part, the students are well-behaved."]
         },
         {
           "idiom": "In hope of + V-ing",
-          "meaning": "với hi vọng là"
+          "meaning": "với hi vọng là",
+          "examples": ["He studied hard in hope of getting a scholarship."]
         },
         {
           "idiom": "off and on",
-          "meaning": "dai dẳng, tái hồi"
+          "meaning": "dai dẳng, tái hồi",
+          "examples": ["It rained off and on all day."]
         },
         {
           "idiom": "all of a sudden / suddenly",
-          "meaning": "bỗng nhiên"
+          "meaning": "bỗng nhiên",
+          "examples": ["All of a sudden, the lights went out."]
         },
         {
           "idiom": "for good / forever",
-          "meaning": "vĩnh viễn, mãi mãi"
+          "meaning": "vĩnh viễn, mãi mãi",
+          "examples": ["She's leaving the city for good."]
         }
       ]
     },
@@ -776,232 +837,278 @@
         {
           "id": 1,
           "structure": "S + V + (not) enough + noun + (for sb) to do st",
-          "meaning": "(không) đủ cái gì để (cho ai) làm gì."
+          "meaning": "(không) đủ cái gì để (cho ai) làm gì.",
+          "examples": ["He doesn't have enough qualification to work here."]
         },
         {
           "id": 2,
           "structure": "S + V + (not) adj/adv + enough + (for sb) to do st",
-          "meaning": "cái gì đó (không) đủ để (cho ai) làm gì."
+          "meaning": "cái gì đó (không) đủ để (cho ai) làm gì.",
+          "examples": ["He doesn't study hard enough to pass the exam."]
         },
         {
           "id": 3,
           "structure": "S + V + too + adj/adv + (for sb) to do st",
-          "meaning": "cái gì quá đến nỗi làm sao để cho ai đấy làm gì."
+          "meaning": "cái gì quá đến nỗi làm sao để cho ai đấy làm gì.",
+          "examples": ["He ran too fast for me to catch up with."]
         },
         {
           "id": 4,
           "structure": "Clause + so that + clause",
-          "meaning": "để mà"
+          "meaning": "để mà",
+          "examples": ["He studied very hard so that he could pas the test."]
         },
         {
           "id": 5,
           "structure": "S + V + so + adj/adv + that + S + V",
-          "meaning": "cái gì đó quá làm sao đến nỗi mà"
+          "meaning": "cái gì đó quá làm sao đến nỗi mà",
+          "examples": ["The film was so boring that he fell asleep in the middle of it."]
         },
         {
           "id": 6,
           "structure": "It + V + such + [a(n)] adj noun + that + S + V",
-          "meaning": "cái gì đó quá làm sao đến nỗi mà"
+          "meaning": "cái gì đó quá làm sao đến nỗi mà",
+          "examples": ["It was such a borring film that he fell asleep in the middle of it."]
         },
         {
           "id": 7,
           "structure": "If + S + present simple + S + will/can/may + V simple",
-          "meaning": "câu điều kiện loại 1 = điều kiện có thật ở tương lai"
+          "meaning": "câu điều kiện loại 1 = điều kiện có thật ở tương lai",
+          "examples": ["If you lie in the sun too long, you will get sunburnt."]
         },
         {
           "id": 8,
           "structure": "If + S + past simple + S + would + V simple",
-          "meaning": "Câu điều kiện loại 2 = miêu tả cái không có thực hoặc tưởng tượng ra"
+          "meaning": "Câu điều kiện loại 2 = miêu tả cái không có thực hoặc tưởng tượng ra",
+          "examples": ["If I won the competition, I would spend it all."]
         },
         {
           "id": 9,
           "structure": "If + S + past perfect + S + would + have past participle",
-          "meaning": "câu điều kiện loại 3 = miêu tả cái không xảy ra hoặc tưởng tượng xảy ra trong quá khứ"
+          "meaning": "câu điều kiện loại 3 = miêu tả cái không xảy ra hoặc tưởng tượng xảy ra trong quá khứ",
+          "examples": ["If I'd worked harder, I would have passed the exam."]
         },
         {
           "id": 10,
           "structure": "Unless + positive = If ... not",
-          "meaning": "trừ phi, nếu không"
+          "meaning": "trừ phi, nếu không",
+          "examples": ["You will be late unless you start at one."]
         },
         {
           "id": 11,
           "structure": "S + used to + do",
-          "meaning": "chỉ thói quen, hành động trong quá khứ"
+          "meaning": "chỉ thói quen, hành động trong quá khứ",
+          "examples": ["He used to smoke, but he gave up five months ago."]
         },
         {
           "id": 12,
           "structure": "S + be + used/accustomed to + doing",
-          "meaning": "quen với việc"
+          "meaning": "quen với việc",
+          "examples": ["I am used to eating at 7:00 PM."]
         },
         {
           "id": 13,
           "structure": "S + get + used to + doing",
-          "meaning": "trở nên quen với việc ..."
+          "meaning": "trở nên quen với việc ...",
+          "examples": ["We got used to American food."]
         },
         {
           "id": 14,
           "structure": "would rather do.......than ......",
-          "meaning": "thích cái gì (làm gì ) hơn cái gì (làm gì)"
+          "meaning": "thích cái gì (làm gì ) hơn cái gì (làm gì)",
+          "examples": ["We would rather die in freedom than lie in slavery."]
         },
         {
           "id": 15,
           "structure": "prefer doing/noun........to",
-          "meaning": "thích cái gì (làm gì ) hơn cái gì (làm gì)"
+          "meaning": "thích cái gì (làm gì ) hơn cái gì (làm gì)",
+          "examples": ["I prefer drinking Coca to drinking Pepsi."]
         },
         {
           "id": 16,
           "structure": "would + like(care/hate/prefer) + to do",
-          "meaning": "tạo lời mời hoặc ý muốn gì"
+          "meaning": "tạo lời mời hoặc ý muốn gì",
+          "examples": ["Would you like to dance with me?"]
         },
         {
           "id": 17,
           "structure": "like + V_ing / like + to do",
-          "meaning": "diễn đạt sở thích / diễn đạt thói quen, sự lựa chọn, hoặc với nghĩa cho là đúng"
+          "meaning": "diễn đạt sở thích / diễn đạt thói quen, sự lựa chọn, hoặc với nghĩa cho là đúng",
+          "examples": ["He like reading novel.", "When making tea, he usually likes to put sugar and a slice of lemon in fisrt."]
         },
         {
           "id": 18,
           "structure": "S + should/had better/ought to/be supposed to + do",
-          "meaning": "ai đó nên làm gì."
+          "meaning": "ai đó nên làm gì.",
+          "examples": ["He should study tonight.", "He had better study tonight.", "He is supposed to study tonight."]
         },
         {
           "id": 19,
           "structure": "Could, may, might + have + P2",
-          "meaning": "có lẽ đã"
+          "meaning": "có lẽ đã",
+          "examples": ["It may have rained last night, but I'm not sure."]
         },
         {
           "id": 20,
           "structure": "Should + have + P2",
-          "meaning": "lẽ ra phải, lẽ ra nên"
+          "meaning": "lẽ ra phải, lẽ ra nên",
+          "examples": ["Tom should have gone to office this morning."]
         },
         {
           "id": 22,
           "structure": "...because + S + V / ...because of/due to + Noun",
-          "meaning": null
+          "meaning": null,
+          "examples": ["Tai was worried because it had started to rain.", "Tai was worried because of the rain."]
         },
         {
           "id": 23,
           "structure": "Although/Even though/though + Clause",
-          "meaning": "mặc dù"
+          "meaning": "mặc dù",
+          "examples": ["Jane will be admitted to the university although she has bad grades."]
         },
         {
           "id": 25,
           "structure": "to be made of = consist of",
-          "meaning": "được làm bằng – đề cập đến chất liệu làm vật"
+          "meaning": "được làm bằng – đề cập đến chất liệu làm vật",
+          "examples": ["This table is made of wood."]
         },
         {
           "id": 26,
           "structure": "to be made from",
-          "meaning": "được làm từ – đề cập đến nguyên vật liệu bị biến đổi khỏi trạng thái ban đầu"
+          "meaning": "được làm từ – đề cập đến nguyên vật liệu bị biến đổi khỏi trạng thái ban đầu.",
+          "examples": ["Paper is made from wood."]
         },
         {
           "id": 27,
           "structure": "to be made out of",
-          "meaning": "được làm bằng – đề cập đến quá trình làm ra vật"
+          "meaning": "được làm bằng – đề cập đến quá trình làm ra vật .",
+          "examples": ["This cake was made out of flour, butter, sugar, eggs and milk."]
         },
         {
           "id": 28,
           "structure": "to have sb do sth = to get sb to do sth",
-          "meaning": "sai ai, bảo ai làm gì"
+          "meaning": "sai ai, bảo ai làm gì",
+          "examples": ["I'll have Vinh fix my car.", "I'll get Vinh to fix my car."]
         },
         {
           "id": 30,
           "structure": "to have / to get sth done",
-          "meaning": "làm gì bằng cách thuê người khác"
+          "meaning": "làm gì bằng cách thuê người khác",
+          "examples": ["I have my car washed."]
         },
         {
           "id": 31,
           "structure": "to make sb do sth = to force sb to do sth",
-          "meaning": "Bắt buộc ai làm gì"
+          "meaning": "Bắt buộc ai làm gì",
+          "examples": ["The bank robbers make the maneger give them all the money."]
         },
         {
           "id": 32,
           "structure": "to make sb P2",
-          "meaning": "làm cho ai bị làm sao"
+          "meaning": "làm cho ai bị làm sao",
+          "examples": ["Working all night on Friday made me tired on Saturday."]
         },
         {
           "id": 33,
           "structure": "to cause sth P2",
-          "meaning": "làm cho cái gì bị làm sao"
+          "meaning": "làm cho cái gì bị làm sao",
+          "examples": ["The big thunder storm caused waterfront houses damaged."]
         },
         {
           "id": 34,
           "structure": "to let sb do sth = to permit/allow sb to do sth",
-          "meaning": "để cho ai, cho phép ai làm gì"
+          "meaning": "để cho ai, cho phép ai làm gì",
+          "examples": ["I let me go."]
         },
         {
           "id": 35,
           "structure": "S + V + as + {adj/adv} + as + {noun/pronoun}",
-          "meaning": "so sánh ngang bằng"
+          "meaning": "so sánh ngang bằng",
+          "examples": ["My book is as interesting as yours.", "Vinh sings as well as I."]
         },
         {
           "id": 36,
           "structure": "S + short{adj/adv}_er + than + {noun/pronoun}",
-          "meaning": "so sánh hơn"
+          "meaning": "so sánh hơn",
+          "examples": ["My grades are higher than Vinh's."]
         },
         {
           "id": 38,
           "structure": "S + more + long{adj/adv} + than + {noun/pronoun}",
-          "meaning": "so sánh hơn"
+          "meaning": "so sánh hơn",
+          "examples": ["He speaks English more fluently than I."]
         },
         {
           "id": 39,
           "structure": "S + less + {adj/adv} + than + {noun/pronoun}",
-          "meaning": "so sánh kém"
+          "meaning": "so sánh kém",
+          "examples": ["He visits his family less frequently than she does."]
         },
         {
           "id": 40,
           "structure": "S + V + the + short{adj/adv}_est + {in + singular count noun/ of + plural count noun}",
-          "meaning": "so sánh bậc nhất"
+          "meaning": "so sánh bậc nhất",
+          "examples": ["Tom is the tallest in the family."]
         },
         {
           "id": 41,
           "structure": "S + V + the + most + long{adj/adv} + {in + singular count noun/ of + plural count noun}",
-          "meaning": "so sánh bậc nhất"
+          "meaning": "so sánh bậc nhất",
+          "examples": ["This shoes is the most expensive of all."]
         },
         {
           "id": 42,
           "structure": "S + V + the + least + long{adj/adv} + {in + singular count noun/ of + plural count noun}",
-          "meaning": "so sánh bậc nhất"
+          "meaning": "so sánh bậc nhất",
+          "examples": ["This shoes is the least expensive of all."]
         },
         {
           "id": 43,
           "structure": "S + V + number multiple + as + {much/many} + (noun) + as + {noun/pronoun}",
-          "meaning": "so sánh bội số"
+          "meaning": "so sánh bội số 'gấp 2, gấp 3...'",
+          "examples": ["This pen costs twice as much as the other one."]
         },
         {
           "id": 44,
           "structure": "The + comparative + S + V + the + comparative + S + V",
-          "meaning": "so sánh kép"
+          "meaning": "so sánh kép",
+          "examples": ["The more you study, the smatter you will become."]
         },
         {
           "id": 45,
           "structure": "No sooner + auxiliary + S + V + than + S + V",
-          "meaning": "vừa mới ....thì đã..."
+          "meaning": "vừa mới ....thì đã...",
+          "examples": ["No sooner had we started out for Obama than it started to rain."]
         },
         {
           "id": 46,
           "structure": "S + need + to V/V_ing",
-          "meaning": "to V khi S là vật thể sống, V_ing khi S không là vật thể sống"
+          "meaning": "toV khi S là vật thể sống, V_ing khi S không là vật thể sống",
+          "examples": ["The grass needs cutting.", "I need to learn English."]
         },
         {
           "id": 47,
           "structure": "...V1 + to + V2",
-          "meaning": "V1 là {agree, expect, hope, learn, refuse, want, demand, forget, attempt, offer, seem, fail, desire, plan, prepare}"
+          "meaning": "V1 là {agree, expect, hope, learn, refuse, want, demand, forget, attempt, offer, seem, fail, desire, plan, prepare}.",
+          "examples": ["I hope to see you soon."]
         },
         {
           "id": 48,
           "structure": "...V1 + V2_ing...",
-          "meaning": "V1 là {admit, avoid, delay, deny, resist, postpone, miss, finish, enjoy, suggest, mind, recall, risk, resume, quit, consider}"
+          "meaning": "V1 là {admit, avoid, delay, deny, resist, postpone, miss, finish, enjoy, suggest, mind, recall, risk, resume, quit, consider}.",
+          "examples": ["I enjoy playing the piano."]
         },
         {
           "id": 49,
           "structure": "S + wish + (that) + S + {could V/ would V/ were V_ing} + ...",
-          "meaning": "ước ở tương lai"
+          "meaning": "ước ở tương lai",
+          "examples": ["We wish that you could come to the party to night."]
         },
         {
           "id": 51,
           "structure": "S + wish + (that) + S + {past perfect/could have P2}....",
-          "meaning": "ước ở quá khứ"
+          "meaning": "ước ở quá khứ",
+          "examples": ["I wish that I had washed the clothes yesterday."]
         }
       ]
     },
@@ -1011,1415 +1118,849 @@
         "A": [
           {
             "verb": "account for",
-            "meaning": "chiếm, giải thích"
+            "meaning": "chiếm, giải thích",
+            "examples": ["Students account for the vast majority of our customers."]
           },
           {
             "verb": "allow for",
-            "meaning": "tính đến, xem xét đến"
+            "meaning": "tính đến, xem xét đến",
+            "examples": ["You should allow for delays when planning a journey."]
           },
           {
             "verb": "ask after",
-            "meaning": "hỏi thăm sức khỏe"
+            "meaning": "hỏi thăm sức khỏe",
+            "examples": ["He always asks after you in his letters."]
           },
           {
             "verb": "ask for",
-            "meaning": "hỏi xin ai cái gì"
+            "meaning": "hỏi xin ai cái gì",
+            "examples": ["She asked for a glass of water."]
           },
           {
             "verb": "ask sb in/out",
-            "meaning": "cho ai vào/ra"
+            "meaning": "cho ai vào/ra",
+            "examples": ["Don't leave him on the doorstep, ask him in!", "He's too shy to ask her out."]
           },
           {
             "verb": "urge sb into/out of",
-            "meaning": "thuyết phục ai làm gì không làm gì"
+            "meaning": "thuyết phục ai làm gì/không làm gì",
+            "examples": ["They urged him into accepting the new job."]
           },
           {
             "verb": "advance in",
-            "meaning": "tấn tới"
+            "meaning": "tấn tới",
+            "examples": ["She has advanced greatly in her studies."]
           },
           {
             "verb": "advance on",
-            "meaning": "trình bày"
+            "meaning": "trình bày",
+            "examples": ["The lawyer advanced a new theory."]
           },
           {
             "verb": "advance to",
-            "meaning": "tiến đến"
+            "meaning": "tiến đến",
+            "examples": ["The army advanced to the river."]
           },
           {
             "verb": "agree on something",
-            "meaning": "đồng ý với điều gì"
+            "meaning": "đồng ý với điều gì",
+            "examples": ["We couldn't agree on a price."]
           },
           {
             "verb": "agree with",
-            "meaning": "đồng ý với ai, hợp với, tốt cho"
+            "meaning": "đồng ý với ai, hợp với, tốt cho",
+            "examples": ["I agree with you.", "That food doesn't agree with me."]
           },
           {
             "verb": "answer to",
-            "meaning": "hợp với"
+            "meaning": "hợp với",
+            "examples": ["He answers to the description of the wanted man."]
           },
           {
             "verb": "answer for",
-            "meaning": "chịu trách nhiệm về"
+            "meaning": "chịu trách nhiệm về",
+            "examples": ["You will have to answer for your actions."]
           },
           {
             "verb": "attend on(upon)",
-            "meaning": "hầu hạ"
+            "meaning": "hầu hạ",
+            "examples": ["Two nurses attended on the patient."]
           },
           {
             "verb": "attend to",
-            "meaning": "chú ý"
+            "meaning": "chú ý",
+            "examples": ["You should attend to what the teacher is saying."]
           }
         ],
         "B": [
           {
             "verb": "to be over",
-            "meaning": "qua rồi"
+            "meaning": "qua rồi",
+            "examples": ["The storm is over now."]
           },
           {
             "verb": "to be up to sb to V",
-            "meaning": "ai đó có trách nhiệm phải làm gì"
+            "meaning": "ai đó có trách nhiệm phải làm gì",
+            "examples": ["It's up to you to decide."]
           },
           {
             "verb": "to bear up",
-            "meaning": "xác nhận"
+            "meaning": "chịu đựng",
+            "examples": ["He's bearing up well under the strain."]
           },
           {
             "verb": "to bear out",
-            "meaning": "chịu đựng"
+            "meaning": "xác nhận",
+            "examples": ["The evidence bears out the defendant's story."]
           },
           {
             "verb": "Blow out",
-            "meaning": "thổi tắt"
+            "meaning": "thổi tắt",
+            "examples": ["He blew out all 30 candles on his birthday cake."]
           },
           {
             "verb": "Blow down",
-            "meaning": "thổi đổ"
+            "meaning": "thổi đổ",
+            "examples": ["The strong wind blew the fence down."]
           },
           {
             "verb": "Blow over",
-            "meaning": "thổi qua"
+            "meaning": "thổi qua, qua đi",
+            "examples": ["The scandal will soon blow over."]
           },
           {
             "verb": "To break away",
-            "meaning": "chạy trốn"
+            "meaning": "chạy trốn",
+            "examples": ["The prisoner broke away from his guards."]
           },
           {
             "verb": "Break down",
-            "meaning": "hỏng hóc, suy nhược, òa khóc"
+            "meaning": "hỏng hóc, suy nhược, òa khóc",
+            "examples": ["My car broke down on the motorway.", "She broke down in tears."]
           },
           {
             "verb": "Break in(to)",
-            "meaning": "đột nhập, cắt ngang"
+            "meaning": "đột nhập, cắt ngang",
+            "examples": ["Someone broke into our house last night.", "She broke in on our conversation."]
           },
           {
             "verb": "Break up",
-            "meaning": "chia tay, giải tán"
+            "meaning": "chia tay, giải tán",
+            "examples": ["They decided to break up.", "The meeting broke up at 4 p.m."]
           },
           {
             "verb": "Break off",
-            "meaning": "tan vỡ một mối quan hệ"
+            "meaning": "tan vỡ một mối quan hệ, dừng lại đột ngột",
+            "examples": ["They broke off their engagement.", "He broke off in the middle of a sentence."]
           },
           {
             "verb": "To bring about",
-            "meaning": "mang đến, mang lại (= result in)"
+            "meaning": "mang đến, mang lại (= result in)",
+            "examples": ["The new policy brought about many changes."]
           },
           {
             "verb": "Bring down",
-            "meaning": "hạ xuống (= to land)"
+            "meaning": "hạ xuống",
+            "examples": ["They managed to bring down the helicopter safely."]
           },
           {
             "verb": "Bring out",
-            "meaning": "xuất bản"
+            "meaning": "xuất bản, làm nổi bật",
+            "examples": ["The company is bringing out a new product next month.", "That color brings out the blue in your eyes."]
           },
           {
             "verb": "Bring up",
-            "meaning": "nuôi dưỡng"
+            "meaning": "nuôi dưỡng, đề cập đến",
+            "examples": ["She was brought up by her grandparents.", "Don't bring up that topic again."]
           },
           {
             "verb": "Bring off",
-            "meaning": "thành công, ẵm giải"
+            "meaning": "thành công, ẵm giải",
+            "examples": ["It was a difficult task, but they brought it off."]
           },
           {
             "verb": "Burn away",
-            "meaning": "tắt dần"
+            "meaning": "tắt dần",
+            "examples": ["The candles burned away."]
           },
           {
             "verb": "Burn out",
-            "meaning": "cháy trụi"
+            "meaning": "cháy trụi, kiệt sức",
+            "examples": ["The building was completely burned out.", "If he doesn't stop working so hard, he'll burn himself out."]
           },
           {
             "verb": "Back up",
-            "meaning": "ủng hộ, nâng đỡ"
+            "meaning": "ủng hộ, nâng đỡ",
+            "examples": ["My family backed me up in my decision."]
           },
           {
             "verb": "Bear on",
-            "meaning": "có ảnh hưởng, liên lạc tới"
+            "meaning": "có ảnh hưởng, liên quan tới",
+            "examples": ["This information may bear on the case."]
           },
           {
             "verb": "Become of",
-            "meaning": "xảy ra cho"
+            "meaning": "xảy ra cho, số phận ra sao",
+            "examples": ["What will become of him now?"]
           },
           {
             "verb": "Begin with",
-            "meaning": "bắt đầu bằng"
+            "meaning": "bắt đầu bằng",
+            "examples": ["Let's begin with the first chapter."]
           },
           {
             "verb": "Begin at",
-            "meaning": "khởi sự từ"
+            "meaning": "khởi sự từ",
+            "examples": ["The course begins at 9 a.m."]
           },
           {
             "verb": "Believe in",
-            "meaning": "tin cẩn, tin có"
+            "meaning": "tin cẩn, tin có",
+            "examples": ["I believe in ghosts."]
           },
           {
             "verb": "Belong to",
-            "meaning": "thuộc về"
+            "meaning": "thuộc về",
+            "examples": ["This book belongs to me."]
           },
           {
             "verb": "Bet on",
-            "meaning": "đánh cuộc vào"
+            "meaning": "đánh cuộc vào",
+            "examples": ["I wouldn't bet on them winning the match."]
           }
         ],
         "C": [
           {
             "verb": "Call for",
-            "meaning": "mời gọi, yêu cầu"
+            "meaning": "mời gọi, yêu cầu",
+            "examples": ["The situation calls for immediate action."]
           },
           {
             "verb": "Call up",
-            "meaning": "gọi đi lính, gọi điện thoại, nhắc lại kỉ niệm"
+            "meaning": "gọi đi lính, gọi điện thoại, nhắc lại kỉ niệm",
+            "examples": ["He was called up to serve in the army.", "I'll call you up later.", "The song calls up memories of my childhood."]
           },
           {
             "verb": "Call on/call in at sb's house",
-            "meaning": "ghé thăm nhà ai"
+            "meaning": "ghé thăm nhà ai",
+            "examples": ["I think I'll call on my parents this evening."]
           },
           {
             "verb": "Call off",
-            "meaning": "hủy bỏ (= put off, cancel)"
+            "meaning": "hủy bỏ",
+            "examples": ["They had to call off the match because of the rain."]
           },
           {
             "verb": "Care for",
-            "meaning": "thích, săn sóc"
+            "meaning": "thích, săn sóc",
+            "examples": ["Would you care for a cup of tea?", "She cares for her elderly mother."]
           },
           {
             "verb": "Catch up with",
-            "meaning": "bắt kịp"
+            "meaning": "bắt kịp",
+            "examples": ["Go on ahead, I'll catch up with you later."]
           },
           {
             "verb": "Chance upon",
-            "meaning": "tình cờ gặp"
+            "meaning": "tình cờ gặp",
+            "examples": ["I chanced upon an old friend in the supermarket."]
           },
           {
             "verb": "Close with",
-            "meaning": "tới gần"
-          },
-          {
-            "verb": "Close about",
-            "meaning": "vây lấy"
+            "meaning": "tới gần",
+            "examples": ["The enemy troops closed with their objective."]
           },
           {
             "verb": "Come to",
-            "meaning": "lên tới"
-          },
-          {
-            "verb": "Consign to",
-            "meaning": "giao phó cho"
+            "meaning": "lên tới, tỉnh lại",
+            "examples": ["The bill came to $50.", "She fainted but quickly came to."]
           },
           {
             "verb": "Cry for",
-            "meaning": "khóc đi / kêu đói"
-          },
-          {
-            "verb": "Cry for the moon",
-            "meaning": "đòi cái không thể"
-          },
-          {
-            "verb": "Cry with joy",
-            "meaning": "khóc vì vui"
-          },
-          {
-            "verb": "Cut something into",
-            "meaning": "cắt vật gì thành"
+            "meaning": "kêu đói, khóc đòi",
+            "examples": ["The baby was crying for its mother."]
           },
           {
             "verb": "Cut into",
-            "meaning": "nói vào, xen vào"
-          },
-          {
-            "verb": "Call at",
-            "meaning": "ghé thăm"
-          },
-          {
-            "verb": "Care about",
-            "meaning": "quan tâm, để ý tới"
-          },
-          {
-            "verb": "Carry away",
-            "meaning": "mang đi, phân phát"
+            "meaning": "nói vào, xen vào, cắt giảm",
+            "examples": ["She kept cutting into our conversation.", "The new expenses will cut into our profits."]
           },
           {
             "verb": "Carry on",
-            "meaning": "tiếp tục (= go on)"
+            "meaning": "tiếp tục",
+            "examples": ["Please carry on with your work."]
           },
           {
             "verb": "Carry out",
-            "meaning": "tiến hành, thực hiện"
-          },
-          {
-            "verb": "Carry off",
-            "meaning": "ẵm giải (= bring off)"
+            "meaning": "tiến hành, thực hiện",
+            "examples": ["We need to carry out more research."]
           },
           {
             "verb": "Catch on",
-            "meaning": "trở nên phổ biến, nắm bắt kịp"
-          },
-          {
-            "verb": "Chew over",
-            "meaning": "nghĩ kĩ (= think over)"
+            "meaning": "trở nên phổ biến, nắm bắt kịp",
+            "examples": ["This new hairstyle is beginning to catch on.", "He's very quick to catch on to new ideas."]
           },
           {
             "verb": "Check in/out",
-            "meaning": "làm thủ tục ra / vào"
-          },
-          {
-            "verb": "Check up",
-            "meaning": "kiểm tra sức khoẻ"
-          },
-          {
-            "verb": "Clean out",
-            "meaning": "dọn sạch, lấy đi hết"
+            "meaning": "làm thủ tục ra / vào",
+            "examples": ["We need to check in two hours before the flight.", "Please remember to check out before noon."]
           },
           {
             "verb": "Clean up",
-            "meaning": "dọn gọn gàng"
-          },
-          {
-            "verb": "Clear away",
-            "meaning": "lấy đi, mang đi"
+            "meaning": "dọn dẹp gọn gàng",
+            "examples": ["It's time to clean up your room."]
           },
           {
             "verb": "Clear up",
-            "meaning": "làm sáng tỏ"
-          },
-          {
-            "verb": "Close down",
-            "meaning": "phá sản, đóng cửa nhà máy"
-          },
-          {
-            "verb": "Close in",
-            "meaning": "tiến tới"
-          },
-          {
-            "verb": "Close up",
-            "meaning": "xích lại gần nhau"
-          },
-          {
-            "verb": "Come over/round",
-            "meaning": "ghé thăm (= visit)"
-          },
-          {
-            "verb": "Come round",
-            "meaning": "hồi tỉnh"
-          },
-          {
-            "verb": "Come down",
-            "meaning": "sụp đổ, giảm"
-          },
-          {
-            "verb": "Come down to",
-            "meaning": "là do"
-          },
-          {
-            "verb": "Come up",
-            "meaning": "đề cập đến, nhô lên, nhú lên"
-          },
-          {
-            "verb": "Come up with",
-            "meaning": "nảy ra, loé lên"
-          },
-          {
-            "verb": "Come up against",
-            "meaning": "đương đầu, đối mặt"
-          },
-          {
-            "verb": "Come out",
-            "meaning": "xuất bản"
-          },
-          {
-            "verb": "Come out with",
-            "meaning": "tung ra sản phẩm"
-          },
-          {
-            "verb": "Come about",
-            "meaning": "xảy ra (= happen)"
+            "meaning": "làm sáng tỏ, dọn dẹp",
+            "examples": ["I hope we can clear up this misunderstanding.", "The weather is clearing up."]
           },
           {
             "verb": "Come across",
-            "meaning": "tình cờ gặp"
+            "meaning": "tình cờ gặp",
+            "examples": ["I came across this old photo while cleaning my room."]
           },
           {
-            "verb": "Come apart",
-            "meaning": "vỡ vụn, lìa ra"
+            "verb": "Come up with",
+            "meaning": "nảy ra, loé lên",
+            "examples": ["She came up with a great idea for the new project."]
           },
           {
-            "verb": "Come along/on with",
-            "meaning": "hoà hợp, tiến triển"
+            "verb": "Count on",
+            "meaning": "trông cậy vào ai",
+            "examples": ["You can always count on me for help."]
           },
           {
-            "verb": "Come into",
-            "meaning": "thừa kế"
-          },
-          {
-            "verb": "Come off",
-            "meaning": "thành công, long, bong ra"
-          },
-          {
-            "verb": "Count on sb for st",
-            "meaning": "trông cậy vào ai"
-          },
-          {
-            "verb": "Cut back on / cut down on",
-            "meaning": "cắt giảm (chi tiêu)"
-          },
-          {
-            "verb": "Cut in",
-            "meaning": "cắt ngang (= interrupt)"
-          },
-          {
-            "verb": "Cut st out of st",
-            "meaning": "cắt cái gì rời khỏi cái gì"
-          },
-          {
-            "verb": "Cut off",
-            "meaning": "cô lập, cách li, ngừng phục vụ"
-          },
-          {
-            "verb": "Cut up",
-            "meaning": "chia nhỏ"
+            "verb": "Cut down on",
+            "meaning": "cắt giảm (chi tiêu)",
+            "examples": ["I'm trying to cut down on the amount of sugar I eat."]
           },
           {
             "verb": "Cross out",
-            "meaning": "gạch đi, xoá đi"
+            "meaning": "gạch đi, xoá đi",
+            "examples": ["If you make a mistake, just cross it out."]
           }
         ],
         "D": [
           {
-            "verb": "Delight in",
-            "meaning": "thích thú về"
-          },
-          {
-            "verb": "Depart from",
-            "meaning": "bỏ, sửa đổi"
-          },
-          {
-            "verb": "Do with",
-            "meaning": "chịu đựng"
-          },
-          {
-            "verb": "Do for a thing",
-            "meaning": "kiếm ra một vật"
-          },
-          {
             "verb": "Die away / die down",
-            "meaning": "giảm đi, dịu đi (về cường độ)"
+            "meaning": "giảm đi, dịu đi (về cường độ)",
+            "examples": ["The sound of the footsteps died away.", "The wind has died down."]
           },
           {
             "verb": "Die out/die off",
-            "meaning": "tuyệt chủng"
-          },
-          {
-            "verb": "Die for",
-            "meaning": "thèm gì đến chết"
-          },
-          {
-            "verb": "Die of",
-            "meaning": "chết vì bệnh gì"
+            "meaning": "tuyệt chủng",
+            "examples": ["Dinosaurs died out millions of years ago."]
           },
           {
             "verb": "Do away with",
-            "meaning": "bãi bỏ, bãi miễn"
+            "meaning": "bãi bỏ, bãi miễn",
+            "examples": ["It's time to do away with these old regulations."]
           },
           {
             "verb": "Do up",
-            "meaning": "trang trí (= decorate)"
-          },
-          {
-            "verb": "Do with",
-            "meaning": "làm được gì nhờ có"
+            "meaning": "trang trí, cài, thắt",
+            "examples": ["We need to do up the living room.", "Can you help me do up my dress?"]
           },
           {
             "verb": "Do without",
-            "meaning": "làm được gì mà không cần"
+            "meaning": "làm được gì mà không cần",
+            "examples": ["We'll have to do without a car for a few days."]
           },
           {
-            "verb": "Draw back",
-            "meaning": "rút lui"
-          },
-          {
-            "verb": "Drive at",
-            "meaning": "ngụ ý, ám chỉ"
-          },
-          {
-            "verb": "Drop in at sb's house",
-            "meaning": "ghé thăm nhà ai"
+            "verb": "Drop in",
+            "meaning": "ghé thăm nhà ai",
+            "examples": ["Feel free to drop in anytime you're in the neighborhood."]
           },
           {
             "verb": "Drop off",
-            "meaning": "buồn ngủ"
+            "meaning": "buồn ngủ, giao hàng",
+            "examples": ["I must have dropped off during the movie.", "Can you drop this package off at the post office?"]
           },
           {
             "verb": "Drop out of school",
-            "meaning": "bỏ học"
+            "meaning": "bỏ học",
+            "examples": ["He dropped out of school at the age of 16."]
           }
         ],
         "E": [
           {
             "verb": "End up",
-            "meaning": "kết thúc"
+            "meaning": "kết thúc, cuối cùng thì",
+            "examples": ["We ended up watching a movie instead of going out."]
           },
           {
             "verb": "Eat up",
-            "meaning": "ăn hết"
+            "meaning": "ăn hết",
+            "examples": ["Come on, eat up your vegetables."]
           },
           {
             "verb": "Eat out",
-            "meaning": "ăn ngoài"
+            "meaning": "ăn ngoài",
+            "examples": ["Let's eat out tonight."]
           }
         ],
         "F": [
           {
             "verb": "Face up to",
-            "meaning": "đương đầu, đối mặt"
+            "meaning": "đương đầu, đối mặt",
+            "examples": ["You have to face up to your responsibilities."]
           },
           {
             "verb": "Fall back on",
-            "meaning": "trông cậy, dựa vào"
-          },
-          {
-            "verb": "Fall in with",
-            "meaning": "mê cái gì (fall in love with sb: yêu ai đó say đắm)"
+            "meaning": "trông cậy, dựa vào",
+            "examples": ["If the plan fails, we can fall back on our savings."]
           },
           {
             "verb": "Fall behind",
-            "meaning": "chậm hơn so với dự định, rớt lại phía sau"
+            "meaning": "chậm hơn so với dự định, rớt lại phía sau",
+            "examples": ["She fell behind in her studies after being ill."]
           },
           {
             "verb": "Fall through",
-            "meaning": "hủy bỏ (= put off, cancel)"
-          },
-          {
-            "verb": "Fall off",
-            "meaning": "giảm dần"
-          },
-          {
-            "verb": "Fall down",
-            "meaning": "thất bại"
-          },
-          {
-            "verb": "Feel up to",
-            "meaning": "cảm thấy đủ sức làm gì"
+            "meaning": "thất bại, không xảy ra",
+            "examples": ["Our holiday plans fell through at the last minute."]
           },
           {
             "verb": "Fill in",
-            "meaning": "điền vào"
+            "meaning": "điền vào",
+            "examples": ["Please fill in this application form."]
           },
           {
-            "verb": "Fill up with",
-            "meaning": "đổ đầy"
-          },
-          {
-            "verb": "Fill out",
-            "meaning": "điền hết, điền sạch"
-          },
-          {
-            "verb": "Fill in for",
-            "meaning": "đại diện, thay thế"
+            "verb": "Fill up",
+            "meaning": "đổ đầy",
+            "examples": ["He filled up the car with petrol."]
           },
           {
             "verb": "Find out",
-            "meaning": "tìm ra"
+            "meaning": "tìm ra, khám phá ra",
+            "examples": ["I need to find out what time the train leaves."]
           }
         ],
         "G": [
           {
-            "verb": "Get through to sb",
-            "meaning": "liên lạc với ai"
-          },
-          {
             "verb": "Get through",
-            "meaning": "hoàn tất, vượt qua"
-          },
-          {
-            "verb": "Get into",
-            "meaning": "đi vào, lên (xe)"
-          },
-          {
-            "verb": "Get in",
-            "meaning": "đến, trúng cử"
+            "meaning": "hoàn tất, vượt qua",
+            "examples": ["I finally got through my exams.", "It was a tough year, but we got through it."]
           },
           {
             "verb": "Get off",
-            "meaning": "cởi bỏ, xuống xe, khởi hành"
-          },
-          {
-            "verb": "Get out of",
-            "meaning": "tránh (= avoid)"
-          },
-          {
-            "verb": "Get down",
-            "meaning": "đi xuống, ghi lại"
+            "meaning": "cởi bỏ, xuống xe, khởi hành",
+            "examples": ["Please get your feet off the table.", "We need to get off the bus at the next stop."]
           },
           {
             "verb": "Get sb down",
-            "meaning": "làm ai thất vọng"
-          },
-          {
-            "verb": "Get down to doing",
-            "meaning": "bắt đầu nghiêm túc làm việc gì"
-          },
-          {
-            "verb": "Get to doing",
-            "meaning": "bắt tay vào làm việc gì"
-          },
-          {
-            "verb": "Get round...(to doing)",
-            "meaning": "xoay xở, hoàn tất"
+            "meaning": "làm ai thất vọng",
+            "examples": ["This rainy weather is really getting me down."]
           },
           {
             "verb": "Get along/on with",
-            "meaning": "hòa hợp, tiến triển (= come along/on with)"
-          },
-          {
-            "verb": "Get st across",
-            "meaning": "làm cho cái gì được hiểu"
-          },
-          {
-            "verb": "Get at",
-            "meaning": "ngụ ý, ám chỉ (= drive at)"
-          },
-          {
-            "verb": "Get back",
-            "meaning": "trở lại"
-          },
-          {
-            "verb": "Get up",
-            "meaning": "ngủ dậy"
-          },
-          {
-            "verb": "Get ahead",
-            "meaning": "vượt trước ai"
+            "meaning": "hòa hợp",
+            "examples": ["Do you get along with your new colleagues?"]
           },
           {
             "verb": "Get away with",
-            "meaning": "cuỗm theo cái gì"
+            "meaning": "thoát tội",
+            "examples": ["He thinks he can get away with cheating on his exams."]
           },
           {
             "verb": "Get over",
-            "meaning": "vượt qua"
-          },
-          {
-            "verb": "Get on one's nerves",
-            "meaning": "làm ai phát điên, chọc tức ai"
+            "meaning": "vượt qua, bình phục",
+            "examples": ["It took him a long time to get over the flu."]
           },
           {
             "verb": "Give away",
-            "meaning": "cho đi, tống đi, tiết lộ bí mật"
-          },
-          {
-            "verb": "Give st back",
-            "meaning": "trả lại"
+            "meaning": "cho đi, tiết lộ bí mật",
+            "examples": ["She gave away all her old clothes to charity.", "Don't give away the ending of the movie."]
           },
           {
             "verb": "Give in",
-            "meaning": "bỏ cuộc"
-          },
-          {
-            "verb": "Give way to",
-            "meaning": "nhượng bộ, đầu hàng, nhường chỗ cho ai"
+            "meaning": "bỏ cuộc, nhượng bộ",
+            "examples": ["The team refused to give in and fought until the end."]
           },
           {
             "verb": "Give up",
-            "meaning": "từ bỏ"
-          },
-          {
-            "verb": "Give out",
-            "meaning": "phân phát, cạn kiệt"
-          },
-          {
-            "verb": "Give off",
-            "meaning": "toả ra, phát ra (mùi hương, hương vị)"
+            "meaning": "từ bỏ",
+            "examples": ["He gave up smoking last year."]
           },
           {
             "verb": "Go out",
-            "meaning": "đi ra ngoài, lỗi thời"
-          },
-          {
-            "verb": "Go out with",
-            "meaning": "hẹn hò"
+            "meaning": "đi ra ngoài, lỗi thời",
+            "examples": ["Are you going out tonight?", "That style of dress went out years ago."]
           },
           {
             "verb": "Go through",
-            "meaning": "kiểm tra, thực hiện công việc"
-          },
-          {
-            "verb": "Go through with",
-            "meaning": "kiên trì bền bỉ"
-          },
-          {
-            "verb": "Go for",
-            "meaning": "cố gắng giành được"
-          },
-          {
-            "verb": "Go in for",
-            "meaning": "tham gia (= take part in)"
-          },
-          {
-            "verb": "Go with",
-            "meaning": "phù hợp"
-          },
-          {
-            "verb": "Go without",
-            "meaning": "kiêng nhịn"
-          },
-          {
-            "verb": "Go off",
-            "meaning": "nổi giận, nổ tung, thối rữa (thức ăn)"
-          },
-          {
-            "verb": "Go off with",
-            "meaning": "cuỗm theo (= get away with)"
-          },
-          {
-            "verb": "Go ahead",
-            "meaning": "tiến lên"
-          },
-          {
-            "verb": "Go back on one's word",
-            "meaning": "không giữ lời"
-          },
-          {
-            "verb": "Go down with",
-            "meaning": "mắc bệnh"
-          },
-          {
-            "verb": "Go over",
-            "meaning": "kiểm tra, xem xét kĩ lưỡng"
-          },
-          {
-            "verb": "Go up",
-            "meaning": "tăng, đi lên, vào đại học"
-          },
-          {
-            "verb": "Go into",
-            "meaning": "lâm vào"
-          },
-          {
-            "verb": "Go away",
-            "meaning": "cút đi, đi khỏi"
-          },
-          {
-            "verb": "Go round",
-            "meaning": "đủ chia"
+            "meaning": "kiểm tra, trải qua",
+            "examples": ["Let's go through the report one more time.", "She has gone through a lot recently."]
           },
           {
             "verb": "Go on",
-            "meaning": "tiếp tục"
-          },
-          {
-            "verb": "Grow out of",
-            "meaning": "lớn vượt khỏi"
+            "meaning": "tiếp tục",
+            "examples": ["Please go on with your story."]
           },
           {
             "verb": "Grow up",
-            "meaning": "trưởng thành"
+            "meaning": "trưởng thành",
+            "examples": ["What do you want to be when you grow up?"]
           }
         ],
         "H": [
           {
-            "verb": "Hand down to",
-            "meaning": "truyền lại (cho thế hệ sau) (= pass on to)"
+            "verb": "Hand down",
+            "meaning": "truyền lại (cho thế hệ sau)",
+            "examples": ["This recipe has been handed down from my grandmother."]
           },
           {
             "verb": "Hand in",
-            "meaning": "giao nộp (bài, tội phạm)"
-          },
-          {
-            "verb": "Hand back",
-            "meaning": "giao lại"
-          },
-          {
-            "verb": "Hand over",
-            "meaning": "trao trả quyền lực"
+            "meaning": "giao nộp (bài, tội phạm)",
+            "examples": ["Please hand in your assignments by Friday."]
           },
           {
             "verb": "Hand out",
-            "meaning": "phân phát (= give out)"
-          },
-          {
-            "verb": "Hang round",
-            "meaning": "lảng vảng"
+            "meaning": "phân phát",
+            "examples": ["The teacher handed out the worksheets."]
           },
           {
             "verb": "Hang on",
-            "meaning": "cầm máy (điện thoại) (= hold on, hold off)"
+            "meaning": "cầm máy (điện thoại), chờ một chút",
+            "examples": ["Hang on a second, I'm almost ready."]
           },
           {
-            "verb": "Hang up (off)",
-            "meaning": "cúp máy"
-          },
-          {
-            "verb": "Hang out",
-            "meaning": "treo ra ngoài"
+            "verb": "Hang up",
+            "meaning": "cúp máy",
+            "examples": ["Don't hang up on me, we need to talk."]
           },
           {
             "verb": "Hold on",
-            "meaning": "cầm máy (= hang on)"
-          },
-          {
-            "verb": "Hold back",
-            "meaning": "kiềm chế"
+            "meaning": "cầm máy, chờ",
+            "examples": ["Please hold on, I'll put you through."]
           },
           {
             "verb": "Hold up",
-            "meaning": "cản trở / trấn lột"
+            "meaning": "cản trở, trấn lột",
+            "examples": ["Sorry I'm late, I was held up in traffic.", "The bank was held up this morning."]
           }
         ],
         "J": [
           {
             "verb": "Jump at a chance/an opportunity",
-            "meaning": "chộp lấy cơ hội"
+            "meaning": "chộp lấy cơ hội",
+            "examples": ["She jumped at the chance to work abroad."]
           },
           {
-            "verb": "Jump at a conclusion",
-            "meaning": "vội kết luận"
-          },
-          {
-            "verb": "Jump at an order",
-            "meaning": "vội vàng nhận lời"
-          },
-          {
-            "verb": "Jump for joy",
-            "meaning": "nhảy lên vì sung sướng"
-          },
-          {
-            "verb": "Jump into (out of)",
-            "meaning": "nhảy vào (ra)"
+            "verb": "Jump to a conclusion",
+            "meaning": "vội kết luận",
+            "examples": ["Don't jump to conclusions before you know all the facts."]
           }
         ],
         "K": [
           {
             "verb": "Keep away from / keep off",
-            "meaning": "tránh xa"
-          },
-          {
-            "verb": "Keep out of",
-            "meaning": "ngăn cản"
-          },
-          {
-            "verb": "Keep sb back from",
-            "meaning": "ngăn cản ai không làm gì"
-          },
-          {
-            "verb": "Keep sb from",
-            "meaning": "ngăn cản ai (= stop sb from)"
-          },
-          {
-            "verb": "Keep sb together",
-            "meaning": "gắn bó"
-          },
-          {
-            "verb": "Keep up",
-            "meaning": "giữ lại, duy trì"
+            "meaning": "tránh xa",
+            "examples": ["Keep away from the edge of the cliff.", "Please keep off the grass."]
           },
           {
             "verb": "Keep up with",
-            "meaning": "theo kịp ai"
+            "meaning": "theo kịp ai",
+            "examples": ["I can't keep up with him, he walks too fast."]
           },
           {
             "verb": "Keep on",
-            "meaning": "cứ tiếp tục làm gì (= keep Ving)"
+            "meaning": "cứ tiếp tục làm gì",
+            "examples": ["Just keep on trying and you'll succeed."]
           },
           {
             "verb": "Knock down",
-            "meaning": "kéo đổ, sụp đổ, san bằng (= pull down)"
+            "meaning": "kéo đổ, san bằng",
+            "examples": ["They are going to knock down the old building."]
           },
           {
             "verb": "Knock out",
-            "meaning": "hạ gục ai"
+            "meaning": "hạ gục ai",
+            "examples": ["The boxer knocked out his opponent in the first round."]
           }
         ],
         "L": [
           {
-            "verb": "Lay down",
-            "meaning": "ban hành, hạ vũ khí"
-          },
-          {
-            "verb": "Lay out",
-            "meaning": "sắp xếp, lập dàn ý"
-          },
-          {
-            "verb": "Leave sb off",
-            "meaning": "cho ai nghỉ việc (= to dismiss sb)"
-          },
-          {
-            "verb": "Leave out",
-            "meaning": "thoát khỏi (= get rid of)"
-          },
-          {
             "verb": "Let sb down",
-            "meaning": "làm ai thất vọng"
-          },
-          {
-            "verb": "Let sb in/out",
-            "meaning": "cho ai vào/ra, phóng thích ai"
-          },
-          {
-            "verb": "Let sb off",
-            "meaning": "tha bổng cho ai"
-          },
-          {
-            "verb": "Lie down",
-            "meaning": "nằm nghỉ"
-          },
-          {
-            "verb": "Live up to",
-            "meaning": "sống xứng đáng với"
-          },
-          {
-            "verb": "Live on",
-            "meaning": "sống dựa vào"
-          },
-          {
-            "verb": "Lock up",
-            "meaning": "khóa chặt ai"
+            "meaning": "làm ai thất vọng",
+            "examples": ["I feel like I've let my parents down."]
           },
           {
             "verb": "Look after",
-            "meaning": "chăm sóc"
-          },
-          {
-            "verb": "Look at",
-            "meaning": "quan sát"
-          },
-          {
-            "verb": "Look back on",
-            "meaning": "nhớ lại, hồi tưởng"
-          },
-          {
-            "verb": "Look round",
-            "meaning": "quay lại nhìn"
+            "meaning": "chăm sóc",
+            "examples": ["Can you look after the kids for a few hours?"]
           },
           {
             "verb": "Look for",
-            "meaning": "tìm kiếm"
+            "meaning": "tìm kiếm",
+            "examples": ["I'm looking for my keys, have you seen them?"]
           },
           {
             "verb": "Look forward to V-ing",
-            "meaning": "mong đợi, mong chờ"
-          },
-          {
-            "verb": "Look in on",
-            "meaning": "ghé thăm"
+            "meaning": "mong đợi, mong chờ",
+            "examples": ["I'm looking forward to seeing you soon."]
           },
           {
             "verb": "Look up",
-            "meaning": "tra cứu (từ điển, số điện thoại)"
+            "meaning": "tra cứu (từ điển, số điện thoại)",
+            "examples": ["If you don't know the word, look it up in a dictionary."]
           },
           {
             "verb": "Look into",
-            "meaning": "xem xét, nghiên cứu"
-          },
-          {
-            "verb": "Look on",
-            "meaning": "đứng nhìn thờ ơ"
-          },
-          {
-            "verb": "Look out",
-            "meaning": "coi chừng"
-          },
-          {
-            "verb": "Look out for",
-            "meaning": "cảnh giác với"
-          },
-          {
-            "verb": "Look over",
-            "meaning": "kiểm tra"
+            "meaning": "xem xét, nghiên cứu",
+            "examples": ["The police are looking into the matter."]
           },
           {
             "verb": "Look up to",
-            "meaning": "tôn trọng"
+            "meaning": "tôn trọng",
+            "examples": ["He's a role model that many people look up to."]
           },
           {
             "verb": "Look down on",
-            "meaning": "coi thường"
+            "meaning": "coi thường",
+            "examples": ["She thinks they look down on her because she doesn't have a degree."]
           }
         ],
         "M": [
           {
             "verb": "Make up",
-            "meaning": "trang điểm, bịa chuyện"
+            "meaning": "trang điểm, bịa chuyện, làm hòa",
+            "examples": ["She takes a long time to make up in the morning.", "He made up a crazy story to explain his absence.", "They kissed and made up after their argument."]
           },
           {
             "verb": "Make out",
-            "meaning": "phân biệt"
+            "meaning": "phân biệt, nhìn ra",
+            "examples": ["I can't make out what he's saying.", "I could just make out a figure in the darkness."]
           },
           {
             "verb": "Make up for",
-            "meaning": "đền bù, hoà giải với ai"
-          },
-          {
-            "verb": "Make the way to",
-            "meaning": "tìm đường đến"
-          },
-          {
-            "verb": "Mix out",
-            "meaning": "trộn lẫn, lộn xộn"
-          },
-          {
-            "verb": "Miss out",
-            "meaning": "bỏ lỡ"
-          },
-          {
-            "verb": "Move away",
-            "meaning": "bỏ đi, ra đi"
-          },
-          {
-            "verb": "Move out",
-            "meaning": "chuyển đi"
-          },
-          {
-            "verb": "Move in",
-            "meaning": "chuyển đến"
+            "meaning": "đền bù",
+            "examples": ["I'll buy you dinner to make up for being so late."]
           }
         ],
         "O": [
           {
-            "verb": "Order sb about st",
-            "meaning": "sai ai làm gì"
-          },
-          {
             "verb": "Owe st to sb",
-            "meaning": "có được gì nhờ ai"
+            "meaning": "có được gì nhờ ai",
+            "examples": ["I owe my success to my parents."]
           }
         ],
         "P": [
           {
             "verb": "Pass away",
-            "meaning": "chết (= to die)"
-          },
-          {
-            "verb": "Pass by",
-            "meaning": "đi ngang qua, trôi qua (= go past)"
-          },
-          {
-            "verb": "Pass on to",
-            "meaning": "truyền lại (= hand down to)"
+            "meaning": "qua đời",
+            "examples": ["Her grandfather passed away last year."]
           },
           {
             "verb": "Pass out",
-            "meaning": "ngất (= to faint)"
+            "meaning": "ngất",
+            "examples": ["He passed out from the heat."]
           },
           {
             "verb": "Pay sb back",
-            "meaning": "trả nợ ai"
-          },
-          {
-            "verb": "Pay up the debt",
-            "meaning": "trả hết nợ nần"
+            "meaning": "trả nợ ai, trả thù",
+            "examples": ["I'll pay you back as soon as I get my salary.", "I'll pay you back for all the trouble you've caused me."]
           },
           {
             "verb": "Point out",
-            "meaning": "chỉ ra"
-          },
-          {
-            "verb": "Pull back",
-            "meaning": "rút lui"
+            "meaning": "chỉ ra",
+            "examples": ["He pointed out the mistakes in my essay."]
           },
           {
             "verb": "Pull down",
-            "meaning": "kéo đổ, san bằng (= to knock down)"
-          },
-          {
-            "verb": "Pull in to",
-            "meaning": "vào (nhà ga)"
-          },
-          {
-            "verb": "Pull st out",
-            "meaning": "lấy cái gì ra"
-          },
-          {
-            "verb": "Pull over at",
-            "meaning": "đỗ xe"
+            "meaning": "kéo đổ, san bằng",
+            "examples": ["The old hospital is going to be pulled down."]
           },
           {
             "verb": "Put st aside",
-            "meaning": "cất đi, để dành"
-          },
-          {
-            "verb": "Put st away",
-            "meaning": "cất đi"
-          },
-          {
-            "verb": "Put through to sb",
-            "meaning": "liên lạc với ai"
-          },
-          {
-            "verb": "Put down",
-            "meaning": "hạ xuống"
-          },
-          {
-            "verb": "Put down to",
-            "meaning": "lí do của"
+            "meaning": "cất đi, để dành",
+            "examples": ["I'm putting some money aside for a new car."]
           },
           {
             "verb": "Put on",
-            "meaning": "mặc vào; tăng cân"
-          },
-          {
-            "verb": "Put up",
-            "meaning": "dựng lên, tăng giá"
+            "meaning": "mặc vào; tăng cân",
+            "examples": ["Put on your coat, it's cold outside.", "I think I've put on a few pounds."]
           },
           {
             "verb": "Put up with",
-            "meaning": "tha thứ, chịu đựng"
-          },
-          {
-            "verb": "Put up for",
-            "meaning": "xin ai ngủ nhờ"
+            "meaning": "tha thứ, chịu đựng",
+            "examples": ["I don't know how she puts up with him."]
           },
           {
             "verb": "Put out",
-            "meaning": "dập tắt"
-          },
-          {
-            "verb": "Put st/sb out",
-            "meaning": "đưa ai/cái gì ra ngoài"
+            "meaning": "dập tắt",
+            "examples": ["It took the firefighters two hours to put out the fire."]
           },
           {
             "verb": "Put off",
-            "meaning": "trì hoãn"
+            "meaning": "trì hoãn",
+            "examples": ["Never put off until tomorrow what you can do today."]
           }
         ],
         "R": [
           {
             "verb": "Run after",
-            "meaning": "truy đuổi"
-          },
-          {
-            "verb": "Run away/off from",
-            "meaning": "chạy trốn"
+            "meaning": "truy đuổi",
+            "examples": ["The dog ran after the cat."]
           },
           {
             "verb": "Run out (of)",
-            "meaning": "cạn kiệt"
+            "meaning": "cạn kiệt",
+            "examples": ["We've run out of milk."]
           },
           {
             "verb": "Run over",
-            "meaning": "đè chết"
-          },
-          {
-            "verb": "Run back",
-            "meaning": "quay trở lại"
-          },
-          {
-            "verb": "Run down",
-            "meaning": "cắt giảm, ngừng phục vụ"
+            "meaning": "đè chết, cán qua",
+            "examples": ["Be careful not to run over the dog."]
           },
           {
             "verb": "Run into",
-            "meaning": "tình cờ gặp, đâm xô, lâm vào"
-          },
-          {
-            "verb": "Ring after",
-            "meaning": "gọi lại sau"
-          },
-          {
-            "verb": "Ring off",
-            "meaning": "tắt máy (điện thoại)"
+            "meaning": "tình cờ gặp, đâm xô",
+            "examples": ["I ran into my old teacher at the supermarket.", "The car ran into a tree."]
           }
         ],
         "S": [
           {
-            "verb": "Save up",
-            "meaning": "để giành"
-          },
-          {
-            "verb": "See about / see to",
-            "meaning": "quan tâm, để ý"
-          },
-          {
             "verb": "See sb off",
-            "meaning": "tạm biệt"
+            "meaning": "tiễn biệt",
+            "examples": ["We went to the airport to see him off."]
           },
           {
-            "verb": "See sb through",
-            "meaning": "nhận ra bản chất của ai"
-          },
-          {
-            "verb": "See over",
-            "meaning": "đi qua (= go over)"
-          },
-          {
-            "verb": "Send for",
-            "meaning": "yêu cầu, mời gọi"
-          },
-          {
-            "verb": "Send to",
-            "meaning": "đưa ai vào (bệnh viện, nhà tù)"
-          },
-          {
-            "verb": "Send back",
-            "meaning": "trả lại"
-          },
-          {
-            "verb": "Set out/off",
-            "meaning": "khởi hành, bắt đầu"
-          },
-          {
-            "verb": "Set in",
-            "meaning": "bắt đầu (dùng cho thời tiết)"
-          },
-          {
-            "verb": "Set up",
-            "meaning": "dựng lên"
-          },
-          {
-            "verb": "Set sb back",
-            "meaning": "ngăn cản ai"
+            "verb": "Set out / off",
+            "meaning": "khởi hành, bắt đầu",
+            "examples": ["We set out for the beach early in the morning."]
           },
           {
             "verb": "Settle down",
-            "meaning": "an cư lập nghiệp"
+            "meaning": "an cư lập nghiệp, ổn định",
+            "examples": ["They decided to settle down and start a family."]
           },
           {
             "verb": "Show off",
-            "meaning": "khoe khoang, khoác lác"
+            "meaning": "khoe khoang, khoác lác",
+            "examples": ["He's always showing off his new car."]
           },
           {
             "verb": "Show up",
-            "meaning": "đến tới"
-          },
-          {
-            "verb": "Shop round",
-            "meaning": "mua bán loanh quanh"
-          },
-          {
-            "verb": "Shut down",
-            "meaning": "sập tiệm, phá sản"
-          },
-          {
-            "verb": "Shut up",
-            "meaning": "ngậm miệng lại"
-          },
-          {
-            "verb": "Sit round",
-            "meaning": "ngồi nhàn rỗi"
-          },
-          {
-            "verb": "Sit up for",
-            "meaning": "chờ ai cho tới tận khuya"
-          },
-          {
-            "verb": "Slow down",
-            "meaning": "chậm lại"
-          },
-          {
-            "verb": "Stand by",
-            "meaning": "ủng hộ ai"
-          },
-          {
-            "verb": "Stand out",
-            "meaning": "nổi bật"
+            "meaning": "đến, xuất hiện",
+            "examples": ["He finally showed up an hour late."]
           },
           {
             "verb": "Stand for",
-            "meaning": "đại diện, viết tắt của, khoan dung"
-          },
-          {
-            "verb": "Stand in for",
-            "meaning": "thế chỗ của ai"
-          },
-          {
-            "verb": "Stay away from",
-            "meaning": "tránh xa"
-          },
-          {
-            "verb": "Stay behind",
-            "meaning": "ở lại"
-          },
-          {
-            "verb": "Stay up",
-            "meaning": "đi ngủ muộn"
-          },
-          {
-            "verb": "Stay on at",
-            "meaning": "ở lại trường để học thêm"
+            "meaning": "đại diện, viết tắt của, khoan dung",
+            "examples": ["'UN' stands for 'United Nations'.", "I won't stand for that kind of behavior."]
           }
         ],
         "T": [
           {
-            "verb": "Take away from",
-            "meaning": "lấy đi, làm nguôi đi"
-          },
-          {
             "verb": "Take after",
-            "meaning": "giống ai như đúc"
-          },
-          {
-            "verb": "Take sb/st back to",
-            "meaning": "đem trả lại"
-          },
-          {
-            "verb": "Take down",
-            "meaning": "lấy xuống"
-          },
-          {
-            "verb": "Mistake sb for sb else",
-            "meaning": "nhầm ai với ai"
+            "meaning": "giống ai như đúc",
+            "examples": ["He takes after his father."]
           },
           {
             "verb": "Take in",
-            "meaning": "lừa gạt ai, hiểu"
+            "meaning": "lừa gạt ai, hiểu",
+            "examples": ["Don't be taken in by his charm.", "I'm not sure I took in all the details."]
           },
           {
             "verb": "Take on",
-            "meaning": "tuyển thêm, lấy thêm người"
+            "meaning": "tuyển thêm, đảm nhận",
+            "examples": ["We're taking on new staff.", "I can't take on any more work right now."]
           },
           {
             "verb": "Take off",
-            "meaning": "cất cánh, cởi tháo bỏ cái gì"
+            "meaning": "cất cánh, cởi tháo bỏ cái gì",
+            "examples": ["The plane took off on time.", "Please take off your shoes."]
           },
           {
             "verb": "Take over",
-            "meaning": "giành quyền kiểm soát"
+            "meaning": "giành quyền kiểm soát, tiếp quản",
+            "examples": ["The company was taken over by a larger one."]
           },
           {
             "verb": "Take up",
-            "meaning": "đảm nhận, chiếm giữ (không gian), bắt đầu làm gì (thành thú tiêu khiển)"
-          },
-          {
-            "verb": "Take to",
-            "meaning": "yêu thích"
-          },
-          {
-            "verb": "Talk sb into st",
-            "meaning": "thuyết phục ai"
-          },
-          {
-            "verb": "Talk sb out of",
-            "meaning": "cản trở ai"
+            "meaning": "bắt đầu làm gì (thú tiêu khiển), chiếm giữ (không gian)",
+            "examples": ["I've decided to take up yoga.", "This sofa takes up too much space."]
           },
           {
             "verb": "Throw away",
-            "meaning": "ném đi, vứt hẳn đi"
-          },
-          {
-            "verb": "Throw out",
-            "meaning": "vứt đi, tống cổ ai"
-          },
-          {
-            "verb": "Tie down",
-            "meaning": "ràng buộc"
-          },
-          {
-            "verb": "Tie in with",
-            "meaning": "buộc chặt"
-          },
-          {
-            "verb": "Tie sb out",
-            "meaning": "làm ai kiệt sức (= wear sb out, exhaust sb)"
-          },
-          {
-            "verb": "Tell off",
-            "meaning": "mắng mỏ"
+            "meaning": "ném đi, vứt hẳn đi",
+            "examples": ["Don't throw away that old newspaper."]
           },
           {
             "verb": "Try on",
-            "meaning": "thử (quần áo)"
+            "meaning": "thử (quần áo)",
+            "examples": ["I'd like to try on this dress."]
           },
           {
             "verb": "Try out",
-            "meaning": "thử... (máy móc)"
+            "meaning": "thử (máy móc)",
+            "examples": ["You can try out the new software for free."]
           },
           {
-            "verb": "Turn away / turn down",
-            "meaning": "từ chối"
-          },
-          {
-            "verb": "Turn into",
-            "meaning": "chuyển thành"
+            "verb": "Turn down",
+            "meaning": "từ chối, vặn nhỏ (âm lượng)",
+            "examples": ["He turned down the job offer.", "Could you turn the music down?"]
           },
           {
             "verb": "Turn out",
-            "meaning": "sản xuất, hoá ra là"
+            "meaning": "hóa ra là, sản xuất",
+            "examples": ["It turned out that he was a friend of my sister.", "The factory turns out 500 cars a day."]
           },
           {
-            "verb": "Turn on/off",
-            "meaning": "mở, tắt"
-          },
-          {
-            "verb": "Turn up/down",
-            "meaning": "vặn to, nhỏ (âm lượng)"
+            "verb": "Turn on / off",
+            "meaning": "mở, tắt",
+            "examples": ["Please turn on the light.", "Don't forget to turn off the computer."]
           },
           {
             "verb": "Turn up",
-            "meaning": "xuất hiện, đến tới"
-          },
-          {
-            "verb": "Turn in",
-            "meaning": "đi ngủ"
+            "meaning": "xuất hiện, đến tới, vặn to (âm lượng)",
+            "examples": ["He turned up late as usual.", "Can you turn the volume up a bit?"]
           }
         ],
         "U": [
           {
             "verb": "Use up",
-            "meaning": "sử dụng hết, cạn kiệt"
+            "meaning": "sử dụng hết, cạn kiệt",
+            "examples": ["We've used up all the coffee."]
           }
         ],
         "W": [
           {
             "verb": "Wait for",
-            "meaning": "đợi"
+            "meaning": "đợi",
+            "examples": ["I'm waiting for the bus."]
           },
           {
-            "verb": "Wait up for",
-            "meaning": "đợi ai đến tận khuya"
-          },
-          {
-            "verb": "Watch out/over",
-            "meaning": "coi chừng (= look out)"
-          },
-          {
-            "verb": "Watch out for",
-            "meaning": "cảnh giác (= look out for)"
+            "verb": "Watch out",
+            "meaning": "coi chừng",
+            "examples": ["Watch out! There's a car coming."]
           },
           {
             "verb": "Wear off",
-            "meaning": "mất tác dụng, biến mất, nhạt dần"
+            "meaning": "mất tác dụng, biến mất, nhạt dần",
+            "examples": ["The effects of the painkiller are starting to wear off."]
           },
           {
             "verb": "Wear sb out",
-            "meaning": "làm ai kiệt sức (= exhaust sb)"
-          },
-          {
-            "verb": "Work off",
-            "meaning": "loại bỏ"
+            "meaning": "làm ai kiệt sức",
+            "examples": ["All this shopping has worn me out."]
           },
           {
             "verb": "Work out",
-            "meaning": "tìm ra cách giải quyết"
-          },
-          {
-            "verb": "Work up",
-            "meaning": "làm khuấy động"
+            "meaning": "tìm ra cách giải quyết, tập thể dục",
+            "examples": ["I can't work out the answer to this math problem.", "I work out at the gym three times a week."]
           },
           {
             "verb": "Wipe out",
-            "meaning": "huỷ diệt, làm kiệt sức (= exhaust sb)"
+            "meaning": "huỷ diệt, xóa sổ",
+            "examples": ["The entire village was wiped out by the flood."]
           },
           {
             "verb": "Write down",
-            "meaning": "viết vào"
+            "meaning": "viết vào",
+            "examples": ["Please write down your name and address."]
           }
         ]
       }

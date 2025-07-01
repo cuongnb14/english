@@ -705,16 +705,24 @@ function setupSlideView() {
                 break;
                 
             case 'phrasal':
+                const phrasalExamples = slide.data.examples ? slide.data.examples.map(example => 
+                    `<div class="example">${example}</div>`
+                ).join('') : '';
                 slideContent = `
                     <div class="phrasal-verb">${slide.data.verb}</div>
                     <div class="phrasal-meaning">${slide.data.meaning}</div>
+                    ${phrasalExamples ? `<div class="examples-section">${phrasalExamples}</div>` : ''}
                 `;
                 break;
                 
             case 'preposition':
+                const prepositionExamples = slide.data.examples ? slide.data.examples.map(example => 
+                    `<div class="example">${example}</div>`
+                ).join('') : '';
                 slideContent = `
                     <div class="structure-formula">${slide.data.preposition}</div>
                     <div class="structure-meaning">${slide.data.usage}</div>
+                    ${prepositionExamples ? `<div class="examples-section">${prepositionExamples}</div>` : ''}
                 `;
                 break;
         }

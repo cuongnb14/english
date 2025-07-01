@@ -717,6 +717,30 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
+.slide-card .examples-section {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.slide-card .phrasal-verb {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.slide-card .phrasal-meaning {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    line-height: 1.3;
+    color: #555;
+}
+
 .slide-card .example-highlight {
     background: linear-gradient(135deg, #fff3cd 0%, #fef9e7 100%);
     border-left: 4px solid #f39c12;
