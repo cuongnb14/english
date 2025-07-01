@@ -497,12 +497,18 @@ function setupSlideView() {
     const prevSlideBtn = document.getElementById('prev-slide');
     const nextSlideBtn = document.getElementById('next-slide');
     const shuffleBtn = document.getElementById('shuffle-slides-btn');
+    const autoplayBtn = document.getElementById('autoplay-btn');
+    const speedSelector = document.getElementById('speed-selector');
+    const progressFill = document.getElementById('progress-fill');
     const currentSlideSpan = document.getElementById('current-slide');
     const totalSlidesSpan = document.getElementById('total-slides');
     
     let currentSlideIndex = 0;
     let slideData = [];
     let originalSlideData = [];
+    let autoplayTimer = null;
+    let progressTimer = null;
+    let isAutoPlaying = false;
     
     // Enter slide view
     slideViewBtn.addEventListener('click', () => {
@@ -517,11 +523,30 @@ function setupSlideView() {
     // Shuffle slides
     shuffleBtn.addEventListener('click', () => {
         slideData = shuffleArray([...originalSlideData]);
+        stopAutoplay();
         showSlide(0);
+    });
+    
+    // Auto-play functionality
+    autoplayBtn.addEventListener('click', () => {
+        if (isAutoPlaying) {
+            stopAutoplay();
+        } else {
+            startAutoplay();
+        }
+    });
+    
+    // Speed selector change
+    speedSelector.addEventListener('change', () => {
+        if (isAutoPlaying) {
+            stopAutoplay();
+            startAutoplay();
+        }
     });
     
     // Exit slide view
     exitSlideBtn.addEventListener('click', () => {
+        stopAutoplay();
         slideView.classList.add('hidden');
         document.body.style.overflow = 'auto';
     });
@@ -529,12 +554,14 @@ function setupSlideView() {
     // Navigation
     prevSlideBtn.addEventListener('click', () => {
         if (currentSlideIndex > 0) {
+            stopAutoplay();
             showSlide(currentSlideIndex - 1);
         }
     });
     
     nextSlideBtn.addEventListener('click', () => {
         if (currentSlideIndex < slideData.length - 1) {
+            stopAutoplay();
             showSlide(currentSlideIndex + 1);
         }
     });
@@ -543,10 +570,20 @@ function setupSlideView() {
     document.addEventListener('keydown', (e) => {
         if (!slideView.classList.contains('hidden')) {
             if (e.key === 'ArrowLeft' && currentSlideIndex > 0) {
+                stopAutoplay();
                 showSlide(currentSlideIndex - 1);
             } else if (e.key === 'ArrowRight' && currentSlideIndex < slideData.length - 1) {
+                stopAutoplay();
                 showSlide(currentSlideIndex + 1);
+            } else if (e.key === ' ') { // Spacebar to toggle autoplay
+                e.preventDefault();
+                if (isAutoPlaying) {
+                    stopAutoplay();
+                } else {
+                    startAutoplay();
+                }
             } else if (e.key === 'Escape') {
+                stopAutoplay();
                 slideView.classList.add('hidden');
                 document.body.style.overflow = 'auto';
             }
@@ -701,6 +738,73 @@ function setupSlideView() {
         }
         
         slideCard.innerHTML = slideContent;
+        
+        // Reset progress bar
+        resetProgressBar();
+    }
+    
+    // Auto-play functions
+    function startAutoplay() {
+        if (slideData.length === 0) return;
+        
+        isAutoPlaying = true;
+        autoplayBtn.textContent = '⏸️ Pause';
+        autoplayBtn.classList.add('playing');
+        autoplayBtn.title = 'Pause Auto-play';
+        
+        const speed = parseInt(speedSelector.value);
+        startProgressBar(speed);
+        
+        autoplayTimer = setTimeout(() => {
+            goToNextSlide();
+        }, speed);
+    }
+    
+    function stopAutoplay() {
+        if (!isAutoPlaying) return;
+        
+        isAutoPlaying = false;
+        autoplayBtn.textContent = '▶️ Play';
+        autoplayBtn.classList.remove('playing');
+        autoplayBtn.title = 'Start Auto-play';
+        
+        if (autoplayTimer) {
+            clearTimeout(autoplayTimer);
+            autoplayTimer = null;
+        }
+        
+        stopProgressBar();
+    }
+    
+    function goToNextSlide() {
+        if (currentSlideIndex < slideData.length - 1) {
+            showSlide(currentSlideIndex + 1);
+            if (isAutoPlaying) {
+                startAutoplay();
+            }
+        } else {
+            // Loop back to first slide or stop autoplay
+            showSlide(0);
+            if (isAutoPlaying) {
+                startAutoplay();
+            }
+        }
+    }
+    
+    function startProgressBar(duration) {
+        progressFill.classList.add('auto-playing');
+        progressFill.style.transitionDuration = duration + 'ms';
+        progressFill.style.width = '100%';
+    }
+    
+    function stopProgressBar() {
+        progressFill.classList.remove('auto-playing');
+        progressFill.style.transitionDuration = '0.3s';
+        progressFill.style.width = '0%';
+    }
+    
+    function resetProgressBar() {
+        progressFill.style.width = '0%';
     }
     
     // Generate example sentences for different content types

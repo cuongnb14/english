@@ -585,6 +585,54 @@ body {
     transform: scale(1.05);
 }
 
+.autoplay-btn {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 80px;
+}
+
+.autoplay-btn:hover {
+    background: #229954;
+    transform: scale(1.05);
+}
+
+.autoplay-btn.playing {
+    background: #e74c3c;
+    animation: pulse 2s infinite;
+}
+
+.autoplay-btn.playing:hover {
+    background: #c0392b;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.7); }
+    70% { box-shadow: 0 0 0 10px rgba(231, 76, 60, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0); }
+}
+
+.speed-selector {
+    background: #34495e;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.speed-selector:hover {
+    background: #2c3e50;
+}
+
 .exit-slide-btn {
     background: #e74c3c;
     color: white;
@@ -706,6 +754,53 @@ body {
     border-top: 2px solid #ecf0f1;
     background: rgba(52, 152, 219, 0.1);
     border-radius: 0 0 15px 15px;
+    gap: 1rem;
+}
+
+.progress-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    background: #ecf0f1;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #3498db, #2980b9);
+    border-radius: 3px;
+    width: 0%;
+    transition: width 0.3s ease;
+    position: relative;
+}
+
+.progress-fill.auto-playing {
+    transition: width linear;
+}
+
+.progress-fill::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3));
+    animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+    0% { transform: translateX(-10px); }
+    100% { transform: translateX(10px); }
 }
 
 .slide-nav-btn {
@@ -783,6 +878,24 @@ body {
         width: 100%;
         justify-content: center;
         margin-top: 0.5rem;
+    }
+    
+    .slide-controls {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+    
+    .autoplay-btn,
+    .shuffle-btn {
+        min-width: 70px;
+        padding: 4px 8px;
+        font-size: 0.8rem;
+    }
+    
+    .speed-selector {
+        font-size: 0.7rem;
+        padding: 2px 6px;
     }
 }
 

@@ -37,6 +37,13 @@
                 <button id="exit-slide-btn" class="exit-slide-btn">✕ Exit Slide View</button>
                 <div class="slide-controls">
                     <button id="shuffle-slides-btn" class="shuffle-btn">🔀 Shuffle</button>
+                    <button id="autoplay-btn" class="autoplay-btn" title="Start Auto-play">▶️ Play</button>
+                    <select id="speed-selector" class="speed-selector" title="Auto-play Speed">
+                        <option value="2000">Fast (2s)</option>
+                        <option value="3000" selected>Normal (3s)</option>
+                        <option value="5000">Slow (5s)</option>
+                        <option value="8000">Very Slow (8s)</option>
+                    </select>
                     <div class="slide-counter">
                         <span id="current-slide">1</span> / <span id="total-slides">0</span>
                     </div>
@@ -49,6 +56,11 @@
             </div>
             <div class="slide-navigation">
                 <button id="prev-slide" class="slide-nav-btn">◀ Previous</button>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div id="progress-fill" class="progress-fill"></div>
+                    </div>
+                </div>
                 <button id="next-slide" class="slide-nav-btn">Next ▶</button>
             </div>
         </div>
