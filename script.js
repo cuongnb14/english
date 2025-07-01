@@ -393,15 +393,6 @@ function shuffleArray(array) {
 
 // Search functionality
 function addSearchFeature() {
-    const searchContainer = document.createElement('div');
-    searchContainer.className = 'search-container';
-    searchContainer.innerHTML = `
-        <input type="text" id="search-input" placeholder="Search...">
-        <button id="search-btn">Search</button>
-    `;
-    
-    document.querySelector('header').appendChild(searchContainer);
-    
     const searchInput = document.getElementById('search-input');
     const searchBtn = document.getElementById('search-btn');
     
