@@ -18,6 +18,9 @@
             <input type="text" id="search-input" placeholder="Search...">
             <button id="search-btn">Search</button>
         </div>
+        <div class="view-toggle">
+            <button id="slide-view-btn" class="view-btn">📑 Slide View</button>
+        </div>
         <nav class="main-nav">
             <button class="nav-btn" data-section="practice">Practice</button>
             <button class="nav-btn active" data-section="structures">Structures</button>
@@ -26,6 +29,30 @@
             <button class="nav-btn" data-section="phrasal-verbs">Phrasal Verbs</button>
         </nav>
     </header>
+
+    <!-- Slide View Mode -->
+    <div id="slide-view" class="slide-view hidden">
+        <div class="slide-container">
+            <div class="slide-header">
+                <button id="exit-slide-btn" class="exit-slide-btn">✕ Exit Slide View</button>
+                <div class="slide-controls">
+                    <button id="shuffle-slides-btn" class="shuffle-btn">🔀 Shuffle</button>
+                    <div class="slide-counter">
+                        <span id="current-slide">1</span> / <span id="total-slides">0</span>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-content">
+                <div class="slide-card">
+                    <!-- Slide content will be populated by JavaScript -->
+                </div>
+            </div>
+            <div class="slide-navigation">
+                <button id="prev-slide" class="slide-nav-btn">◀ Previous</button>
+                <button id="next-slide" class="slide-nav-btn">Next ▶</button>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
 
